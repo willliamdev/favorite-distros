@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  width: 100vw;
+}
+
+.container {
+  width: max(800px, 90vw);
+  margin: auto;
+
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.titles {
+
+  font-size: 3rem;
+  margin: 1rem 0;
+}
